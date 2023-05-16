@@ -1,20 +1,17 @@
-const fizzBuzzList = document.getElementsByClassName("fizzBuzzList")
+const fizzBuzzList = document.getElementById("fizzBuzzList")
 
 for (let i = 1; i < 101; i++){
     let liElement = document.createElement('li')
+    
     if (i % 3 === 0 && i % 5 === 0){
-        
         liElement.append("FizzBuzz")
         fizzBuzzList.append(liElement)
         console.log("FIzzBuzz")
     }
     else if (i % 3 === 0){
-        
         liElement.append("Fizz")
         fizzBuzzList.append(liElement)
-        
         console.log("Fizz")
-    
     } 
     else if (i % 5 === 0){
         
@@ -24,7 +21,6 @@ for (let i = 1; i < 101; i++){
     }
 
     else{
-        
         liElement.append(i)
         fizzBuzzList.append(liElement)
         console.log(i)
