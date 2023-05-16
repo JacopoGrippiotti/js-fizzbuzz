@@ -18,3 +18,29 @@ h1{
     width: 90%;
     margin: 0 auto;
 }
+
+#fizzBuzzList li{
+    padding: 5px;
+}
+
+.fizz{
+background-color: blue;
+text-align: left;
+color: white;
+}
+
+.fizzbuzz{
+background-color: red;
+text-align: right;
+color: black;
+}
+
+.buzz{
+background-color: aquamarine;
+color: black;
+}
+
+.number{
+background-color: chartreuse;
+color: black;
+}
